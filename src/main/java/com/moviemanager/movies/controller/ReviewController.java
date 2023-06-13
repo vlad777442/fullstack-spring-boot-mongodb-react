@@ -1,5 +1,7 @@
-package com.moviemanager.movies;
+package com.moviemanager.movies.controller;
 
+import com.moviemanager.movies.model.Review;
+import com.moviemanager.movies.service.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

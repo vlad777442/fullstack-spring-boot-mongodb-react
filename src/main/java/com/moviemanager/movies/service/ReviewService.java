@@ -1,5 +1,8 @@
-package com.moviemanager.movies;
+package com.moviemanager.movies.service;
 
+import com.moviemanager.movies.repository.ReviewRepository;
+import com.moviemanager.movies.model.Movie;
+import com.moviemanager.movies.model.Review;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

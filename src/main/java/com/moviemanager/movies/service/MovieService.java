@@ -1,5 +1,7 @@
-package com.moviemanager.movies;
+package com.moviemanager.movies.service;
 
+import com.moviemanager.movies.repository.MovieRepository;
+import com.moviemanager.movies.model.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
