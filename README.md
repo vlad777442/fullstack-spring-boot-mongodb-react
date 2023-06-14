@@ -12,6 +12,10 @@ Technologies:
 $ git clone https://github.com/vlad777442/movies-spring-boot-mongodb-backend
 ```
 * Configure MongoDB atlas:
+  * Create database;
+  * Set name and password;
+  * Use MongoDB Compass to import the data from movies.json;
+  * Configure application.properties file with your data.
 
 
 [http://localhost:8080/api/v1/movies](http://localhost:8080/api/v1/movies)
